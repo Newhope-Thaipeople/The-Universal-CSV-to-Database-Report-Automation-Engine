@@ -98,3 +98,4 @@ test('Validator: should reject row with missing transaction_id', () => {
   assert.equal(result.isValid, false);
   assert.match(result.reason, /Missing transaction_id/);
 });
+
