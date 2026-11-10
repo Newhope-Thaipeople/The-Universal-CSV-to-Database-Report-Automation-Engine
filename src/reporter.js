@@ -139,3 +139,4 @@ if (process.argv[1] && process.argv[1].endsWith('reporter.js')) {
       await pool.end();
     });
 }
+
