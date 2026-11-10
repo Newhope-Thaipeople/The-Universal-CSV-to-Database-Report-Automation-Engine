@@ -1,0 +1,7 @@
+node_modules/
+.env
+data/processed/
+data/failed/
+*.log
+.DS_Store
+Thumbs.db

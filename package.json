@@ -1,0 +1,17 @@
+{
+  "name": "universal-csv-to-db-automation-engine",
+  "version": "1.0.0",
+  "description": "The Universal CSV-to-Database & Report Automation Engine: High-performance streaming data ingestion, validation, and batch upsert service with PostgreSQL",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "daemon": "node src/index.js --daemon",
+    "test": "node --test test/**/*.test.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "pg": "^8.13.1"
+  }
+}
